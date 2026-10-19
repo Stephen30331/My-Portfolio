@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Academic Planner | Stephen</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+<header>
+<nav class="navbar">
+<a class="logo" href="index.html">STEPHEN<span>.</span></a>
+<button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+<ul class="nav-links" id="navLinks">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Me</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a class="active" href="planner.html">Academic Planner</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<main class="page">
+<p class="eyebrow">STAY ORGANIZED</p>
+<h1>Academic <span>Planner</span></h1>
+<p class="intro">Organize your study activities. Add a task, mark it as completed or delete it when it is no longer needed.</p>
+
+<section class="planner-box">
+<h2>My Study Tasks</h2>
+<form id="taskForm">
+<label for="taskInput">Task description</label>
+<div class="task-entry">
+<input id="taskInput" type="text" placeholder="e.g. Read cybersecurity notes" required>
+<button class="btn" type="submit">Add Task</button>
+</div>
+</form>
+<p id="taskCount">You have 0 tasks.</p>
+<ul id="taskList" class="task-list"></ul>
+</section>
+</main>
+
+<footer><p>© 2026 Stephen's Student Portfolio | COS 106</p></footer>
+</body>
+</html>
